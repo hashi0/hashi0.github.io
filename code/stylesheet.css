@@ -1,0 +1,235 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+    margin: 0;
+    background-color: rgb(255, 211, 37);
+    color: #502e00;
+    scroll-behavior: smooth;
+}
+
+li {
+    list-style: none;
+}
+
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+
+}
+
+.top-wrapper {
+    height: 110px;
+    background-image: url(../img/himawari.jpg);
+    background-size: cover;
+    color: #ffffff;
+    padding: 90px 0 400px 0;
+
+}
+
+.top-wrapper-title {
+    text-align: center;
+}
+
+.top-wrapper h1 {
+    font-size: 800%;
+}
+
+
+
+header {
+    background-color: #502e00;
+    height: 80px;
+    width: 100%;
+    color: #ffffff;
+    padding: 1px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.header-left {
+    text-align: left;
+    font-weight: bold;
+    float: left;
+    font-size: 25px;
+    padding: 8px 0 20px 30px;
+}
+
+
+.header-right li {
+    float: right;
+    margin-right: 100px;
+    font-size: 20px;
+}
+
+
+
+.header-right a {
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+    border-radius: 3px;
+    letter-spacing: 3px;
+}
+
+.header-right a:hover {
+    background-color: #905524;
+    transition: all 0.3s;
+}
+
+.event-wrapper {
+    color: #502e00;
+    background-color: rgb(255, 211, 37);
+    height: 1700px;
+    padding: 1px;
+    border-bottom: 1px solid #ffe97b;
+    margin-top: 50px;
+}
+
+.heading {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    scroll-margin-top: 100px;
+    letter-spacing: 5px;
+}
+
+.event-title {
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 25px;
+    padding-left: 50px;
+}
+
+.text-contents {
+    text-align: left;
+    display: block;
+    padding-left: 400px;
+    padding-bottom: 100px;
+
+}
+
+.events {
+    margin: 60px;
+    background-color: #ffffff;
+    padding: 50px;
+    border-radius: 8px;
+}
+
+.event {
+    margin-top: 30px;
+}
+
+.event img {
+    float: left;
+    border-radius: 8px;
+    width: 350px;
+    height: 200px;
+
+}
+
+
+table {
+    background-color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.9);
+    background-blend-mode: lighten;
+    text-align: center;
+    border-radius: 8px;
+    padding: 20px;
+    margin: auto;
+    width: 800px;
+    height: 300px;
+    margin-top: 50px;
+    border-collapse: collapse;
+    border: solid 1px #ffffff;
+}
+
+.schedule-wrapper {
+    height: 650px;
+    border-bottom: 1px solid #ffe97b;
+    margin-top: 100px;
+    background-image: url(../img/top-wrapper-image.png);
+    background-size: cover;
+    background-color: rgba(232, 210, 193, 0.8);
+    background-blend-mode: color-burn;
+    font-size: 25px;
+}
+
+.schedule-left {
+    font-weight: bold;
+    text-align: center;
+    background-color: #ffe5c1;
+
+}
+
+
+.map-wrapper {
+    border-bottom: 1px solid #ffe97b;
+    height: 1000px;
+    margin-top: 100px;
+}
+
+.map {
+    margin: 0 auto;
+    display: block;
+    border-radius: 8px;
+    width: 800px;
+}
+
+footer {
+    color: #ffffff;
+    background-color: #502e00;
+    height: 300px;
+}
+
+.footer-logo {
+    font-weight: bold;
+    float: left;
+    margin: 30px;
+    font-size: 30px;
+}
+
+.footer-adress {
+    float: left;
+    padding: 10px 50px 52px 50px;
+    font-size: 20px;
+}
+
+.footer-adress a {
+    opacity: 1;
+}
+
+.footer-adress a:hover {
+    opacity: 0.8;
+}
+
+.backToTop {
+    float: right;
+    margin: 40px;
+    display: block;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    padding: 40px;
+    font-size: 20px;
+}
+
+.backToTop:hover {
+    background-color: #502e00;
+    color: #ffffff;
+    transition: all 0.1s;
+}
+
+header,
+a {
+    color: #ffffff;
+}
+
+.clear {
+    clear: left;
+}
